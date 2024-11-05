@@ -117,6 +117,7 @@ git -v
 Baixar os arquivos do GitHub.
 ```
 git clone -b <branch_nome> <repositorio_url> .
+git clone https://github.com/celkecursos/semana-um-laravel-react.git .
 ```
 
 Verificar a branch.
@@ -127,4 +128,21 @@ git branch
 Baixar as atualizações do projeto.
 ```
 git pull
+```
+
+Adicionar todos os arquivos modificados no staging area - área de preparação.
+```
+git add .
+```
+
+commit representa um conjunto de alterações em um ponto específico da história do seu projeto, registra apenas as alterações adicionadas ao índice de preparação.
+O comando -m permite que insira a mensagem de commit diretamente na linha de comando.
+```
+git commit -m "Descrição do commit"
+```
+
+Enviar os commits locais, para um repositório remoto.
+```
+git push <remote> <branch>
+git push origin main
 ```
