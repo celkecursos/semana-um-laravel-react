@@ -10,6 +10,12 @@
 Duplicar o arquivo ".env.example" e renomear para ".env".<br>
 Alterar no arquivo ".env" as credencias do banco de dados.<br>
 
+Para a funcionalidade recuperar senha funcionar, necessário alterar as credenciais do servidor de envio de e-mail no arquivo .env.<br>
+Utilizar o servidor fake durante o desenvolvimento: https://mailtrap.io<br>
+Servidor Iagente: https://login.iagente.com.br/solicitacao-conta-smtp/origin/celke<br>
+Configurar DNS da Iagente: https://celke.com.br/artigo/como-configurar-o-dns-da-iagente-na-vps-da-hostinger
+```
+
 Instalar as dependências do PHP.
 ```
 composer install
