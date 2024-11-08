@@ -157,8 +157,9 @@ git push origin main
 ## Deploy da aplicação
 ## Conectar o PC ao servidor com SSH
 
-Endereço da hospedagem.
-[Hostinger](https://hostinger.com.br?REFERRALCODE=1CESARNICOL13)
+Endereço da hospedagem. Ganhe 20% de desconto adicional na 
+[Hostinger](https://bit.ly/47QbjSZ).
+
 
 Criar chave SSH (chave pública e privada).
 ```
